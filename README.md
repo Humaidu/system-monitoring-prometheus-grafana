@@ -26,14 +26,14 @@ This project demonstrates how to monitor **system metrics** such as CPU, memory,
 ---
 
 ## Project Structure
-
+```
 project1_prometheus_grafana/
 │── docker-compose.yml # Services definition
 │── config/
 │ └── prometheus.yml # Prometheus scrape config
 │── README.md # Project documentation
 
-
+```
 ---
 
 ## Getting Started
