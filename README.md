@@ -12,10 +12,12 @@ This project demonstrates how to monitor **system metrics** such as CPU, memory,
 ---
 
 ## Architecture
+```
 +--------------------+ +------------------+
 | Node Exporter | ---> | Prometheus | ---> Grafana Dashboard
 | (Collects metrics) | | (Stores metrics) | (Visualization)
 +--------------------+ +------------------+
+```
 
 - **Node Exporter** → exposes system metrics (CPU, RAM, Disk, Network).  
 - **Prometheus** → scrapes metrics from Node Exporter and stores them.  
